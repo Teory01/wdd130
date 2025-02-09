@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting Co.</title>
+    <meta name="description" content="Get in touch with Whitewater Rafting Co. for bookings, inquiries, and customer support. We're here to help you plan your adventure!">
+    <meta name="author" content="Oribi Teo-Iyalla">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+      <img src="images/my_logo.jpg" alt="Logo" width="100" height="100">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Us</h1>
+      <section>
+        <h2>Company Information</h2>
+        <p><strong>Address:</strong> 822 Adebayo Street, Port Harcourt, Rivers State.</p>
+        <p><strong>Phone:</strong> (+234)) 9062445602 </p>
+        <p><strong>Email:</strong> oribiteoiyalla72@gmail.com</p>
+        <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" allowfullscreen></iframe>
+      </section>
+
+      <section>
+        <h2>Meet Our Team</h2>
+        <div class="employees">
+          <figure>
+            <img src="images/employee1.jpg" alt="John - Rafting Guide">
+            <figcaption>John - Rafting Guide</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee2.jpg" alt="Sarah - Trip Coordinator">
+            <figcaption>Sarah - Trip Coordinator</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee3.jpg" alt="Mike - Safety Instructor">
+            <figcaption>Mike - Safety Instructor</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <fieldset>
+            <legend>Purpose of Message</legend>
+            <input type="radio" id="general" name="purpose" value="general" required>
+            <label for="general">General Inquiry</label>
+            
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label>
+            
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website Suggestion</label>
+          </fieldset>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Whitewater Rafting Co. | Oribi Teo-Iyalla | All rights reserved.</p>
+      <a href="https://wireframe.cc/hSPou5">View Wireframe</a>
+    </footer>
+  </body>
+</html>
