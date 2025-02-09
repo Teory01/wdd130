@@ -164,9 +164,10 @@ section img {
 footer {
     background: var(--accent-color);
     color: black;
-    padding: 20px 0;
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     gap: 15px;
 }
 
@@ -179,9 +180,14 @@ footer img {
     height: 40px;
 }
 
+.sociallinks {
+    display: flex;
+    gap: 15px;
+}
+
+
 .sociallinks a {
     text-decoration: none;
-    margin: 0 10px;
 }
 
 .sociallinks img {
