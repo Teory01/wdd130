@@ -156,7 +156,6 @@ button:hover {
     background-color: #222;
 }
 
-/* Employee Profiles */
 .team {
     display: flex;
     justify-content: center;
@@ -219,3 +218,243 @@ footer img {
 .sociallinks a:hover img {
     transform: scale(1.1);
 }
+  
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #81bda9;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Trips Section */
+.trips {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    background: #e0f7fa;
+    padding: 50px 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 250px;
+    max-width: 100%;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background: #00796b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: #004d40;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #004d40;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover, .active {
+    background: white;
+    color: #0066cc;
+    border-radius: 5px;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  #trips-intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Trip Options Section */
+  #trip-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .trip {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .trip h2 {
+    color: #171c21;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #060708;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #004c99;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
